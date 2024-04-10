@@ -7,7 +7,7 @@ Ensure that you have p5.js installed on your machine or are using the p5.vscode 
 ## About the Starter Code
 This starter code contains a directory called <code>melody_app_starter-main</code> with 2 folders and 2 files. - The <code>public</code> folder holds all the main files to run a p5.js project as seen on the [p5.js Web Editor](https://editor.p5js.org/).
 - The <code>songs</code> folder holds JSON files that we will retrieve.
-- The <code>README.md/code> file is the file with these instructions
+- The <code>README.md</code> file is the file with these instructions
 - The <code>server.js</code> file contains the Node.js and Express.js functions that create the routing enviernment for HTTP requests.
 
 ### Code in the <code>server.js</code> file:
