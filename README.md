@@ -38,7 +38,7 @@ The code in the <code>server.js</code> file creates the enviernment to enable HT
 - The <code> app.use(express.static('public')) </code> mounts the middleware to access the <code>public</code> folder from your current directory. This enables the p5.js project to run in the browser using the main files <code>index.html</code>, <code>style.css</code>  and <code>script.js</code> files. 
 - The code that begins with <code>app.listen(port, () => {...</code> starts the server and makes it listen for incoming requests on the specified <code>port</code>. After the server starts this message appears in the terminal: <code>Server running at http://localhost:3000</code>
 
-The server is running and canbe accessed at the specific url: [http://localhost:3000](http://localhost:3000)
+The server is running and can be accessed at the specific url: [http://localhost:3000](http://localhost:3000)
 
 # Next Steps:
 1. Complete the [Getting Started with Node.js tutorial](https://docs.google.com/document/d/1n6Je0Lzht2ibQmN1st1ccth47ppNhIYtMBTOwNAAFdo/edit?usp=sharing)
