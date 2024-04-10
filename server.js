@@ -1,8 +1,11 @@
-//import express
+//Import express
 let express = require('express');
 
-// Create the Express app.
+// Create the Express app
 let app = express();
+
+//Initialize file system module
+let fs = require('fs');
 
 // Set the port used for server traffic.
 let port = 3000;
@@ -17,7 +20,7 @@ app.use(express.static('public'));
 // API endpoint to get list of songs
 //Get list of file names and parse as json object
 
-//run server
+//Run server at port
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
