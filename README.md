@@ -12,7 +12,7 @@ This starter code contains a directory called <code>melody_app_starter-main</cod
 
 ### Code in the <code>server.js</code> file:
 
-<code>
+```
 //Import express
 let express = require('express');
 
@@ -29,7 +29,7 @@ app.use(express.static('public'));
 app.listen(port, () => {
  console.log(`Server running at http://localhost:${port}`);
 });
-</code>
+```
 
 The code in the <code>server.js</code> file creates the enviernment to enable HTTP requests in p5.js using Node.js and Express.js.
 - The <code> require </code> function is a built-in Node.js function used to import modules. Here the Express.js module is imported with the argument <code>'express'</code>, and stored in the variable called <code> express </code>.
