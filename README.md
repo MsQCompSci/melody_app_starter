@@ -2,7 +2,7 @@
 Starter code to set up a p5.js project to route HTTP GET requests using Node.js in the [Getting Started with Node.js tutorial](https://docs.google.com/document/d/1n6Je0Lzht2ibQmN1st1ccth47ppNhIYtMBTOwNAAFdo/edit?usp=sharing). It this tutorial, you set up the enviernment for GET requests to read file names from a local folder called <code> songs </code>, and parses them into a JSON array. 
 
 ## Before you begin
-Ensure that you have p5.js installed on your machine or are using the p5.vscode extension in VS Code. See  [Setting Up Your Enviernment (https://docs.google.com/document/d/12AAGiuV1hS2BGacyQdFX6hH4FjrhbVGG7oJ7XYSQHbE/edit#heading=h.o2otuvhzi85u) for more details on how to download and create p5.js projects on your local device using VS Code. 
+Ensure that you have p5.js installed on your machine or are using the p5.vscode extension in VS Code. See  [Setting Up Your Enviernment](https://docs.google.com/document/d/12AAGiuV1hS2BGacyQdFX6hH4FjrhbVGG7oJ7XYSQHbE/edit#heading=h.o2otuvhzi85u) for more details on how to download and create p5.js projects on your local device using VS Code. 
 
 ## About the Starter Code
 This starter code contains a directory called <code>melody_app_starter-main</code> with 2 folders and 2 files. - The <code>public</code> folder holds all the main files to run a p5.js project as seen on the [p5.js Web Editor](https://editor.p5js.org/).
